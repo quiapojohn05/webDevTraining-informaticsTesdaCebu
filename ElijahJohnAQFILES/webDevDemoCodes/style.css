@@ -1,0 +1,23 @@
+.jumbotron{
+    background-color: #55a1ed;
+    border-radius: 0px;
+}
+.row{
+    margin:auto;
+}
+.col-sm-4:nth-child(odd) {
+    background: red;
+    color:whitesmoke;
+}
+
+.col-sm-4:nth-child(even) {
+    background:violet;
+}
+
+.col-sm-8:nth-child(even){
+color:whitesmoke;
+background-color:darkblue;
+}
+.offset-sm-3{
+    background-color: aqua;
+}
